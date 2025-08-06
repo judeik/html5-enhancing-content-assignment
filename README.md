@@ -17,8 +17,7 @@ The project was developed to enhance the understanding and practical application
 
 The project is structured for clarity, maintainability, and scalability. CSS has been separated from HTML to follow best practices.
 
-    <pre><code> 
-``` 📦 project-root/ ├── 📄 enhanced-form.html # Main HTML5 content and form structure ├── 📁 css/ │ └── 📄 styles.css # External CSS for styling and responsiveness └── 📄 README.md # Project overview, structure, and usage ``` </code></pre>
+    <pre><code> ``` 📦 project-root/ ├── 📄 enhanced-form.html # Main HTML5 content and form structure ├── 📁 css/ │ └── 📄 styles.css # External CSS for styling and responsiveness └── 📄 README.md # Project overview, structure, and usage ``` </code></pre>
 
 - **enhanced-form.html**: Includes semantic HTML5 layout, content sections (lists, tables, media), and a fully validated form.
 - **css/style.css**: Linked as an external stylesheet in the HTML to handle all visual and responsive styling.
@@ -72,10 +71,6 @@ An internal CSS stylesheet was utilized to apply:
 - Visual styles enhance readability and navigation
 - All features are keyboard-accessible and mobile-responsive
 - SEO-friendly meta tags and structural comments are included
-
-## 📂 File
-
-- `enhanced-form.html`: Main and only file for the project
 
 ## 🚀 How to View / Usage Instructions
 
