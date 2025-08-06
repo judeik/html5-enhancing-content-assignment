@@ -17,14 +17,8 @@ The project was developed to enhance the understanding and practical application
 
 The project is structured for clarity, maintainability, and scalability. CSS has been separated from HTML to follow best practices.
 
--project-root/
--│
--├── css/
--│ └── style.css # External stylesheet linked in the HTML
--│
--├── enhanced-form.html # Main HTML file containing semantic structure, content, and form
--│
--└── README.md # Documentation and project overview
+    <pre><code> 
+``` 📦 project-root/ ├── 📄 enhanced-form.html # Main HTML5 content and form structure ├── 📁 css/ │ └── 📄 styles.css # External CSS for styling and responsiveness └── 📄 README.md # Project overview, structure, and usage ``` </code></pre>
 
 - **enhanced-form.html**: Includes semantic HTML5 layout, content sections (lists, tables, media), and a fully validated form.
 - **css/style.css**: Linked as an external stylesheet in the HTML to handle all visual and responsive styling.
@@ -90,11 +84,8 @@ To open and test the project locally:
 1. **Clone or Download the Repository**  
 
    - Clone via Git:  
-  
-     ```bash
-     git clone https://github.com/yourusername/html5-enhanced-form-assignment.git
 
-     ```
+    git clone https://github.com/yourusername/html5-enhanced-form-assignment.git
 
    - Or download the ZIP file and extract it.
 
