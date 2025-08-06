@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
     <meta name="description" content="Practice HTML5 Lists, Tables, Media, and Form Validation" />
     <meta name="keywords" content="HTML5, Forms, Tables, Lists, Media, Validation, Web Development" />
     <meta name="author" content="Ojobor, Jude Ikechukwu" />
+
     <title>HTML5 Content & Form Practice</title>
+    
+    <!-- External Stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+    <!-- ================= Header ================= -->
     <header>
         <h1>Enhancing HTML5 Content & Mastering Forms</h1>
-        <!-- Header contains a meaningful heading for SEO -->
+        <!-- Header contains a meaningful primary heading for SEO -->
     </header>
-    
+
+    <!-- ================= Main Content ================= -->
     <main>
+        <!-- ---------- List Section ---------- -->
         <section>
             <h2>📋 Useful Web Technologies (List)</h2>
-            <!-- Unordered list of technologies -->
+            <!-- Unordered list of popular web development technologies -->
             <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -27,6 +35,7 @@
             </ul>
 
             <h3>Steps to Build a Simple Web Page (Ordered List)</h3>
+            <!-- Ordered list of sequential steps -->
             <ol>
                 <li>Set up your HTML structure</li>
                 <li>Add semantic tags</li>
@@ -35,9 +44,10 @@
             </ol>
         </section>
 
+        <!-- ---------- Table Section ---------- -->
         <section>
             <h2>📊 Web Browsers Comparison (Table)</h2>
-            <!-- Table for comparison -->
+            <!-- Responsive table comparing browser features -->
             <table>
                 <thead>
                     <tr>
@@ -64,32 +74,38 @@
             </table>
         </section>
 
+        <!-- ---------- Media Section ---------- -->
         <section>
             <h2>🎥 Media Embeds</h2>
-            <!-- Embedded image -->
-            <img src="https://via.placeholder.com/600x200" alt="Sample Web Banner" width="100%" />
 
-            <!-- Audio content -->
+            <!-- Responsive banner image -->
+            <img src="https://via.placeholder.com/600x200" alt="Sample Web Banner - Placeholder Image" width="100%" />
+
+            <!-- Embedded audio file -->
             <h3>Sample Audio:</h3>
             <audio controls>
-                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
                 Your browser does not support the audio tag.
             </audio>
 
-            <!-- Video content -->
+            <!-- Embedded video file -->
             <h3>Sample Video:</h3>
             <video width="100%" height="300" controls>
-                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </section>
 
+        <!-- ---------- Form Section ---------- -->
         <section>
             <h2>📨 Contact Us Form</h2>
-            <!-- Complete HTML5 form -->
+
+            <!-- Semantic and accessible HTML5 form -->
             <form action="/submit" method="post" autocomplete="on">
+                <!-- Personal Information Fieldset -->
                 <fieldset>
                     <legend>Personal Information</legend>
+
                     <label for="fullname">Full Name:</label>
                     <input type="text" id="fullname" name="fullname" placeholder="John Doe" required minlength="3" />
 
@@ -111,8 +127,10 @@
                     </select>
                 </fieldset>
 
+                <!-- Account Preferences Fieldset -->
                 <fieldset>
                     <legend>Account Preferences</legend>
+
                     <label for="username">Username (readonly):</label>
                     <input type="text" id="username" name="username" value="john_doe_25" readonly />
 
@@ -122,19 +140,22 @@
                     <label for="bio">Short Bio:</label>
                     <textarea id="bio" name="bio" placeholder="Tell us something about yourself..." maxlength="250"></textarea>
 
+                    <!-- Newsletter checkbox -->
                     <label>
                         <input type="checkbox" name="newsletter" checked />
                         Subscribe to newsletter
                     </label>
                 </fieldset>
 
+                <!-- Submit Button -->
                 <button type="submit">Submit Form</button>
             </form>
         </section>
     </main>
 
+    <!-- ================= Footer ================= -->
     <footer>
-        <!-- Footer for SEO and structure -->
+        <!-- Footer provides author name and copyright -->
         <p>&copy; 2025 Ojobor, Jude Ikechukwu | HTML5 Assignment Submission</p>
     </footer>
 </body>

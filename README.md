@@ -15,7 +15,20 @@ The project was developed to enhance the understanding and practical application
 
 ## 🧱 Project Structure
 
-The solution is encapsulated in a single HTML file: `enhanced-form.html`.
+The project is structured for clarity, maintainability, and scalability. CSS has been separated from HTML to follow best practices.
+
+-project-root/
+-│
+-├── css/
+-│ └── style.css # External stylesheet linked in the HTML
+-│
+-├── enhanced-form.html # Main HTML file containing semantic structure, content, and form
+-│
+-└── README.md # Documentation and project overview
+
+- **enhanced-form.html**: Includes semantic HTML5 layout, content sections (lists, tables, media), and a fully validated form.
+- **css/style.css**: Linked as an external stylesheet in the HTML to handle all visual and responsive styling.
+- **README.md**: Provides a clear description, structure, and usage guidance for the project.
 
 ### Key Sections Included
 
@@ -70,12 +83,34 @@ An internal CSS stylesheet was utilized to apply:
 
 - `enhanced-form.html`: Main and only file for the project
 
-## 📎 How to Use
+## 🚀 How to View / Usage Instructions
 
-1. Clone or download the repository.
-2. Open `enhanced-form.html` in any modern web browser.
-3. Test the form by interacting with various inputs.
-4. Use browser DevTools to inspect validation behavior and responsive layout.
+To open and test the project locally:
+
+1. **Clone or Download the Repository**  
+
+   - Clone via Git:  
+  
+     ```bash
+     git clone https://github.com/yourusername/html5-enhanced-form-assignment.git
+
+     ```
+
+   - Or download the ZIP file and extract it.
+
+2. **Open the HTML File in a Browser**  
+   - Navigate to the project folder.
+   - Open `enhanced-form.html` by double-clicking it or right-clicking and selecting **"Open with" > Your Browser**.
+
+3. **Explore the Features**  
+   - Review semantic layout: `<header>`, `<main>`, `<section>`, `<footer>`, etc.
+   - Scroll through structured content: Lists, tables, and embedded media.
+   - Fill out the form to observe:
+     - Native HTML5 validations
+     - Required fields, input patterns, and accessibility features
+     - Responsive and styled inputs (linked via `css/style.css`)
+
+> 💡 No additional setup or server is required. This project runs fully in the browser using static HTML and CSS.
 
 ## 🧾 License
 
